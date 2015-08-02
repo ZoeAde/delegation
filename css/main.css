@@ -1,0 +1,10 @@
+
+
+.container {
+  max-width: 300px;
+  padding-top: 50px;
+}
+
+.todo-list {
+  text-align: left;
+}
