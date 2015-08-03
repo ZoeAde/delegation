@@ -6,10 +6,11 @@ $(document).on('ready', function() {
     var toDo = $('input').val();
     $('#all-todos').prepend('<li><h2>'+toDo+
       '&nbsp;<button class="btn btn-danger btn-sm">X</button></h2></li>');
-  });
+    $('input').val("");
+});
 
 
-$(document).on("click", "li", function(event) {
+$(document).on("click", "li", function() {
     $(this).remove();
   });
 
